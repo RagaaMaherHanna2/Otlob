@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "348213901945",
+    "firebase_url": "https://otlob-b4d7e.firebaseio.com",
+    "project_id": "otlob-b4d7e",
+    "storage_bucket": "otlob-b4d7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348213901945:android:db29b31ef9ebc003",
+        "android_client_info": {
+          "package_name": "com.example.marian.otlob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348213901945-50ije00ga4jos7tbrva4mmg6lrp04e1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marian.otlob",
+            "certificate_hash": "3c325cce0cc489cdc5124da34bab3594784f14d4"
+          }
+        },
+        {
+          "client_id": "348213901945-ein4nqaqqtadoho2lj7lfg79na4dln80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk1N69M0todIbgSND3tYjBOn3jQ5v7L-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348213901945-ein4nqaqqtadoho2lj7lfg79na4dln80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

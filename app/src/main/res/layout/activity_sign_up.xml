@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marian.otlob.View.SignUpActivity"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_upPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/phone_number"
+            android:ems="10"
+            android:hint="@string/phone_number"
+            android:textColorHint="@color/white"
+            android:inputType="phone"
+            android:text="@string/phone_number1"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_singleLineEllipsis="true"
+            tools:ignore="ContentDescription" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_upName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/name"
+            android:ems="10"
+            android:hint="@string/name1"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_singleLineEllipsis="true"
+            tools:ignore="ContentDescription" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_upPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/password"
+            android:ems="10"
+            android:hint="@string/password"
+            android:textColorHint="@color/white"
+            android:inputType="textPassword"
+            android:text="@string/password1"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:met_baseColor="@color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="8"
+            app:met_singleLineEllipsis="true"
+            tools:ignore="ContentDescription" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/sign_up_upBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:shadowColor="@color/fbutton_color_silver"
+            android:text="@string/sign_up"
+            android:textSize="24sp"
+            app:buttonColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
